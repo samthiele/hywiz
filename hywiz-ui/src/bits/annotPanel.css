@@ -1,0 +1,55 @@
+.annotPanel{
+    font-size: 18px;
+    text-align: center;
+}
+
+.form{
+    display:inline;
+}
+.SInput{
+    width: 5em;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+}
+.MInput{
+    min-width: 8em;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+}
+.LInput{
+    min-width: 18em;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+}
+
+.submit{
+    width: 5em;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+}
+
+.SButton{
+    width: 5em;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+    margin-top: 8px;
+}
+.LButton{
+    width: 10em;
+    font-size: 18px;
+    margin-left: 5px;
+    display:inline;
+    margin-top: 8px;
+}
+
+.HR{
+    width:75%;
+}

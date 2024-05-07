@@ -1,0 +1,57 @@
+.Container {
+  text-align: left;
+  height: 90vh;
+  width: max(80vw, 500px);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2vh;
+  border-color: white;
+  border-width: medium;
+  background-color:rgba(255, 255, 255, 0.075);
+}
+
+.TitleBox{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: medium solid white;
+    flex-grow: 0 0 auto;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    min-width: 200px;
+    float: right;
+}
+
+.MenuItem{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    flex-grow: 1 0 auto;
+}
+
+.ScrollBox
+{
+    width: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+a {
+ color: #61dafb;
+}

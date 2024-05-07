@@ -1,0 +1,65 @@
+.Canvas {
+    flex-grow: 1;
+    width: 100%;
+    padding-right: 0px;
+    overflow: hidden;
+}
+
+.Legend {
+    width: 100%;
+    height: 2.5em;
+    flex-grow: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    object-fit: contain;
+}
+
+.Title {
+    flex-grow: 0;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.PanelDiv {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0;
+  width: 0;
+
+  border-style: solid;
+  border-radius: 1vh;
+  border-color: white;
+  border-width: medium;
+  background-color:rgba(255, 255, 255, 0.075);
+}
+
+.PanelDiv:hover {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.LegendImageDiv {
+    position: absolute;
+    width: 500px;
+}
+
+.LegendText:hover .LegendImage {
+    visibility: visible;
+    opacity: 1;
+}
+.LegendImage {
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}

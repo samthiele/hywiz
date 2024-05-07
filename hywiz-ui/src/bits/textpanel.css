@@ -1,0 +1,51 @@
+
+.Thumb {
+    flex-grow: 0;
+    height: 5em;
+    padding-right: 20px;
+    aspect-ratio: auto;
+}
+
+.TextBox {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.MenuOuter{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    min-width: 200px;
+}
+.MenuInner{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    float: right;
+}
+.MenuItem{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    flex-grow: 0;
+}
+
+h1 {
+  font-size: 25px;
+  flex-grow: 1;
+  margin: 1;
+}
+
+h2 {
+    font-size: 20px;
+    flex-grow: 0;
+    margin: 0;
+}
+
+a {
+ color: #61dafb;
+}

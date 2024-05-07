@@ -1,0 +1,24 @@
+.Panel {
+  text-align: left;
+  min-height: 2em;
+  margin: 20px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-style: solid;
+  border-radius: 1vh;
+  border-color: white;
+  border-width: medium;
+  background-color:rgba(255, 255, 255, 0.075);
+}
+
+.Panel:hover {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.HiddenLink {
+    color: white;
+    text-decoration: none;
+}
