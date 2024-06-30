@@ -3,16 +3,13 @@
 ### About
 
 HyWiz is a python package for generating dynamic and static visualisations of hyperspectral drillcore data. This essentially 
-serves as a visualisation extension to the ['hycore`](https://github.com/samthiele/hycore/tree/main) package (for hyperspectral drillcore data organisation and management).
+serves as a visualisation extension to the [`hycore`](https://github.com/samthiele/hycore/tree/main) package (for hyperspectral drillcore data organisation and management).
 
 ### Demonstration
 
-A demonstration of the hyperspectral drillcore visualisations that can be created using `hywiz` can be found here:
+A demonstration of the hyperspectral drillcore visualisations that can be created using `hywiz` can be found [here](https://www.hzdr.de/FWG/FWGE/Spremberg_html/index.html).
 
-[https://www.hzdr.de/FWG/FWGE/Spremberg_html/index.html](https://www.hzdr.de/FWG/FWGE/Spremberg_html/index.html)
-
-For an introduction on how to use `hywiz`, please refer to the `demonstration.ipynb` file.
-
+For a short introduction on how to use `hywiz`, please refer to the `demonstration.ipynb` file.
 
 ### Documentation
 Documentation for `hywiz` can be found here:
