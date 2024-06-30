@@ -26,7 +26,9 @@ jobs:
       # install pdoc
       - run: pip install pdoc==12.3.0
       - run: pip install hylite
+      - run: pip install git+https://github.com/samthiele/hycore.git
       - run: pip install .
+      
       # build documentation with pdoc into docs/
       - run: pdoc ./hywiz -o docs/
 
